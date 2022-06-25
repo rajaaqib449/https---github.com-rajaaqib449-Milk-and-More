@@ -1,0 +1,60 @@
+.navbar-nav li{
+    margin-left: 0px;
+
+    font-family: oswald,sans-serif;
+    font-size: 1em;
+    line-height: 1.2857em;
+    font-weight: 400;
+    margin-left: 8px;
+
+}
+.NavBar{
+  background: #ffffff57;
+  
+
+}
+.navbar-nav a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 100%;
+  color: black;
+  font-weight: 600;
+}
+.navbar-nav{
+  width: 100%;
+display: flex;
+justify-content: space-between;
+}
+
+@media screen and (max-width: 974px) {
+  .LI{
+    width: 100%;
+  display: block !important;
+  /* justify-content: space-between; */
+  }
+}
+
+
+.Title{
+  display: inline-block;
+  margin-left: -34px !important;
+}
+.Logo img{
+  object-fit: cover;
+}
+.Button{
+  display: inline;
+margin-right: 10px;
+border-radius: 1px;
+
+}
+.LI{
+display: flex;
+padding: 0px;
+}
+
+.btn:hover{
+transition: 0.3s;
+  border-bottom: 1px solid;
+ 
+ 
+}

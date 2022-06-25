@@ -1,0 +1,81 @@
+<div class="container-fuild">
+    <div class="row d-flex justify-content-center ">
+        <div class="card p-3" style="width: 19rem;"  *ngFor="let items of getAllData" >
+            <div class="Images">
+                <img class="card-img-top" [src]="[items.image]" alt="Card image cap">
+            </div>
+   
+            <div class="card-body" style="width: 17rem">
+                <p class="card-text text-center">{{items.paragraphs}}</p>
+                <h2 class="text-center">{{items.heading}}</h2>
+                <div class="ReadMore d-flex justify-content-center mt-3">
+                    <button >Select option</button>
+        </div>
+            </div>
+          <!-- </div>
+          <div class="card p-3" style="width: 15rem;">
+            <div class="Images">
+                <img class="card-img-top" src="/assets/images/product-2.jpg" alt="Card image cap">
+            </div>
+   
+            <div class="card-body" style="width:20rem">
+                <p class="card-text text-center">Pecorino Romano</p>
+                <h2 class="text-center">$18.90 – $38.00</h2>
+                <div class="ReadMore d-flex justify-content-center mt-5">
+                    <button >view all products</button>
+        </div>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 20rem;">
+            <div class="Images">
+                <img class="card-img-top" src="/assets/images/product-3.jpg" alt="Card image cap">
+            </div>
+   
+            <div class="card-body" style="width:20rem">
+                <p class="card-text text-center">Pecorino Romano</p>
+                <h2 class="text-center">$18.90 – $38.00</h2>
+                <div class="ReadMore d-flex justify-content-center mt-5">
+                    <button >view all products</button>
+        </div>
+            </div>
+          </div>
+          <div class="card p-3" style="width: 20rem;">
+            <div class="Images">
+                <img class="card-img-top" src="/assets/images/product-4.jpg" alt="Card image cap">
+            </div>
+   
+            <div class="card-body" style="width:20rem">
+     
+                <p class="card-text text-center">Pecorino Romano</p>
+                <h2 class="text-center">$18.90 – $38.00</h2>
+                <div class="ReadMore d-flex justify-content-center mt-5">
+                    <button >view all products</button>
+        </div>
+            </div>
+          </div> -->
+        
+    </div>
+ 
+
+</div>
+<div class="container">
+    <div class="row class" *ngFor="let items of getAlldataBreakfast ">
+
+        <div class="col-md-8 background">
+            <div class="childClass position-relative">
+            <h2>{{items.BreakFast}}</h2>
+               <p>{{items.Paragraph}}</p>
+            </div>
+            
+        </div>
+
+
+         <div class="col-md-4 background1 ">
+            <div class="childClass1 position-relative">
+                <h2>{{items.iceCream}}</h2>
+                   <p>{{items.IceceamParaghraph}}</p>
+                </div>
+         </div>
+    
+</div>
+</div>

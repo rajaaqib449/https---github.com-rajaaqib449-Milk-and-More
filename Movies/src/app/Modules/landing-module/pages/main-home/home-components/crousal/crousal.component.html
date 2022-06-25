@@ -1,0 +1,18 @@
+
+<owl-carousel-o [options]="customOptions" >
+    <ng-template carouselSlide [id]="item.id" *ngFor="let item of getAllData">
+      <div class="slide">
+          <img [src]="[item.image]" >
+         
+      </div>
+      <div class="crousalText d-flex justify-content-center">
+        <h2 class="coursalData"> {{item.title}}</h2> 
+      </div>
+    
+    </ng-template>
+
+
+  
+  </owl-carousel-o>
+
+  

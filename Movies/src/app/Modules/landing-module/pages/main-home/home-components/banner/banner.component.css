@@ -1,0 +1,86 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Banner{
+    height: auto;
+    padding: 44px 41px 101px 33px;
+    background-color: #fecf4d;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(/assets/images/pngfind.com-milk-png-1819170-removebg-preview.png);
+}
+.Banner2{
+    height: 200px;
+    background-color: #ffffff;
+}
+.Paragraphs{
+    z-index: 1;
+    color: #231f20;
+    font-size: 1.2em;
+    line-height: 1.45em;
+    font-family: inherit;
+}
+.Heading{
+    font-family: libre baskerville,serif;
+    font-size: 3.4em;
+    line-height: 1.25em;
+    font-weight: 700;
+    position: relative;
+}
+.Heading::after{
+   position: absolute;
+   content: "";
+   left: calc(49% + 3.2rem);
+
+   height: 1px;
+ bottom: 0;
+   width: 79px;
+   background-color: #231f20;
+
+
+
+}
+.Heading::before{
+    position: absolute;
+    content: "";
+    right: calc(47% + 3.2rem);
+ 
+    height: 1px;
+  bottom: 0;
+    width: 79px;
+    background-color: #231f20;
+}
+/* .before{
+    right: calc(47% + 3.2rem);
+    position: absolute;
+    height: 1px;
+    content: '';
+    width: 60px;
+    background-color: #231f20;
+ 
+}
+.after{
+    left: calc(49% + 3.2rem);
+    position: absolute;
+    height: 1px;
+    content: '';
+    width: 60px;
+    background-color: #231f20;
+ 
+} */
+.Image{
+        z-index: -1;
+    /* bottom: 21px; */
+    margin-top: -76px;
+}
+.cowLogo img{
+    position: absolute;
+    left: 50%;
+
+
+    margin-top: -16px;
+}
+

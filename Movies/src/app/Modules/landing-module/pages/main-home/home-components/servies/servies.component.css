@@ -1,0 +1,13 @@
+.card{
+    border: 1px solid rgb(255 255 255 / 13%);
+
+}
+.card img{
+ object-fit: cover;
+}
+.card-body button{
+    width: 177px;
+    border: 1px solid white;
+    background-color: orange;
+    height: 44px;
+}

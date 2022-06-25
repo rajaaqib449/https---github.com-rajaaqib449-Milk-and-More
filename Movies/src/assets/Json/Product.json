@@ -1,0 +1,33 @@
+{
+    "productData":[
+        {
+            "id":"1",
+            "title":"Milk",
+            "SubTitle":"Dairy farming’s been part of agriculture for thousands of years.",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/img_milk.jpg",
+            "alt":"images Not Found"
+        },
+        {
+            "id":"2",
+            "title":"Cheese",
+            "SubTitle":"Dairy farming’s been part of agriculture for thousands of years.",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/img_cheese.jpg",
+            "alt":"images Not Found"
+        },
+        {
+            "id":"3",
+            "title":"Butter",
+            "SubTitle":"Dairy farming’s been part of agriculture for thousands of years.",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/img_butter.jpg",
+            "alt":"images Not Found"
+        },
+        {
+            "id":"4",
+            "title":"Cream",
+            "SubTitle":"Dairy farming’s been part of agriculture for thousands of years.",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/img_cream.jpg",
+            "alt":"images Not Found"
+        }
+
+    ]
+}

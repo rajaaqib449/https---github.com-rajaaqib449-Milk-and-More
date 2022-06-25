@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+.form *{
+width: 20vw;
+font-weight: 400;
+    margin: 10px;
+    display: block;
+}
+.form{
+    background-color: #fbfdfc;
+    justify-content: center;
+    width: 25vw;
+    border: 1px solid black;
+    border: 1px solid white;
+    box-shadow: 4px 12px 10px 4px rgb(235, 231, 231);
+    margin-left: 40%;
+    margin-top: 30px;
+}
+.Background{
+
+    background-color: black ;
+}

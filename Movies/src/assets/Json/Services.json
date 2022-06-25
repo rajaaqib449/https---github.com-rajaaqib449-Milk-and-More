@@ -1,0 +1,30 @@
+{
+    "servicesData":[
+        {
+            "id":"1",
+            "Heading":"Our Dairy Farm",
+            "Paraghrap":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "buttonName":"DiSCOVER HISTORY",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/service3.jpg"
+
+        },
+        {
+            
+            "id":"2",
+            "Heading":"Our Organic Food",
+            "Paraghrap":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "buttonName":"VIEW COWS",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/service2.jpg"
+        },
+        {
+            
+            "id":"3",
+            "Heading":"Meet Our Cows",
+            "Paraghrap":"Some quick example text to build on the card title and make up the bulk of the card's content.",
+            "buttonName":"SHOP NOW",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/service1.jpg"
+        }
+ 
+
+    ]
+}

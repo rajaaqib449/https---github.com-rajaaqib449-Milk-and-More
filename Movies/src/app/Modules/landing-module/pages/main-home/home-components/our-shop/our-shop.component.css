@@ -1,0 +1,110 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card img{
+    object-fit: cover;
+    border-radius: 50%;
+       max-width: 100%;
+       height: auto;
+       vertical-align: top;
+       transition: transform .2s;
+   }
+   .ReadMore button{
+    height: 51px;
+    width: 200px;
+    border-color: #ffd050;
+    background-color: #f19f41;
+    overflow: hidden;
+    font-family: oswald,sans-serif;
+    font-size: .8em;
+    line-height: 1.2857em;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+}
+.card{
+border:1px solid #f19f41 ;
+margin: 15px;
+height: 100%;
+border-radius: 50px;
+}
+.card img:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(0.8); 
+  }
+  .ReadMore button{
+    text-transform: uppercase;
+  }
+  .box1{
+      border: 1px solid black;
+  }
+  .background{
+background: url(/assets/images/intro1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+min-height: 200px;
+width: 100%;
+
+  }
+  .background1{
+    background: url(/assets/images/intro2.jpg);
+    background-repeat: no-repeat;
+    min-height: 200px;
+    background-size: cover;
+    width: 100%;
+
+    
+      }
+
+   .class{
+    display: grid;
+    grid-template: repeet autofill(min,max 1fr, 300px);
+    /* grid-template-columns: repeat( auto-fit, minmax(347px, 1fr) ); */
+    grid-gap: 30px;
+    grid-template-columns: 67% 30%;
+   }
+   .container{
+     margin: 0px auto;
+   }
+
+    @media screen and (max-width: 656px) {
+   .class{
+     display: block;
+   }
+    }
+
+    .childClass{
+      
+      left: 10%;
+      width: 78%;
+      /* display: inline; */
+      justify-content: center;
+      align-items: start;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 22%;
+ 
+    }
+    .childClass1{
+      left: 10%;
+      width: 78%;
+      justify-content: center;
+      align-items: start;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top: 22%;
+ 
+    }
+
+    .breakFast{
+      position: absolute;
+      
+    }

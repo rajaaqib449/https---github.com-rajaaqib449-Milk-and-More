@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+
+    margin-top: 50px;
+    background: url(/assets/images/big_bg.jpg);
+    background-size: cover;
+    min-height:700px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.card{
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: 20px;
+    background-color: rgba(240, 248, 255, 0);
+    min-height: 200px;
+
+}
+.card img{
+    object-fit: cover;
+    border-radius: 52%;
+    /* min-width: 50%; */
+    /* max-width: 100%; */
+    height: 111px;
+    /* height: 136px; */
+
+    transition: transform .2s;
+    width: 125px;
+    text-align: center;
+}
+.card-body button{
+    width: 177px;
+
+    border: 1px solid white;
+    background-color: orange;
+    height: 44px;
+}
+
+.ReadMore button{
+    height: 51px;
+    width: 200px;
+    border-color: #ffd050;
+    background-color: #f19f41;
+    overflow: hidden;
+    font-family: oswald,sans-serif;
+    font-size: .8em;
+    line-height: 1.2857em;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+}
+.card img:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(0.8); 
+  }
+  .Images{
+      text-align: center;
+  }
+  .Heading::after{
+    position: absolute;
+    content: "";
+    left: calc(49% + 3.2rem);
+    
+    height: 1px;
+  bottom: 0;
+    width: 79px;
+    background-color: #ffffff;
+ 
+ 
+ 
+ }
+ .Heading::before{
+     position: absolute;
+     content: "";
+     right: calc(47% + 3.2rem);
+  
+     height: 1px;
+   bottom: 0;
+     width: 79px;
+     background-color: #ffffff;
+ }
+ .cowLogo img{
+    position: absolute;
+    left: 50%;
+    margin-top: 46px;
+}
+.Heading{
+    margin: 25px;
+}
+/* .card-body p{
+    width: 75px;
+} */

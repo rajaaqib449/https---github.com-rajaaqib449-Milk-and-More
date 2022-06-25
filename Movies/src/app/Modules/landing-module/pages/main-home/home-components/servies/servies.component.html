@@ -1,0 +1,35 @@
+<div class="container-fluid">
+    <div class="row d-flex justify-content-center "  >
+        <div class="card" style="width: 21rem;" *ngFor="let item of getAllData">
+            <img class="card-img-top" [src]="[item.image]" alt="Card image cap"  width="50%" height="55%">
+            <div class="card-body">
+                <h2 class="text-center">{{item.Heading}}</h2>
+                <p class="card-text text-center">{{item.Paraghrap}}</p>
+                <div class="d-flex justify-content-center">
+                    <button>{{item.buttonName}}</button>
+                  </div>
+            </div>
+          </div>
+          <!-- <div class="card" style="width: 21rem;">
+            <img class="card-img-top" src="/assets/images/paneer.jpg" alt="Card image cap" width="50%" height="55%">
+            <div class="card-body">
+                <h2 class="text-center">Our Organic Food</h2>
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="d-flex justify-content-center">
+                <button>SHOP NOW </button>
+              </div>
+            </div>
+          </div> -->
+          <!-- <div class="card" style="width: 21rem;">
+            <img class="card-img-top" src="/assets/images/cow.jpg" alt="Card image cap"  width="50%" height="55%">
+            <div class="card-body">
+                <h2 class="text-center">Meet Our Cows</h2>
+              <p class="card-text text-center">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div class="d-flex justify-content-center">
+                <button>VIEW COWS</button>
+              </div>
+            </div>
+          </div> -->
+    </div>
+
+</div>

@@ -1,0 +1,31 @@
+<div class="container-fluid background">
+    <div class="row d-flex justify-content-center text-white"  >
+        <div class="col-12 position-relative">
+            <div class="Heading d-flex justify-content-center" >
+                <h2 class="text-warning">{{heading}}</h2>
+                <div class="cowLogo d-flex justify-content-center">
+                    <img src="/assets/images/62470.png" alt="" width="30px">
+                </div>
+                
+            </div>
+        </div>
+        <div class="card p-3" style="width: 15rem;" *ngFor="let Items of getAllDataTeams">
+            <div class="Images">
+                <img class="card-img-top" [src]="[Items.Images]" alt="Card image cap">
+            </div>
+   
+            <div class="card-body " >
+                <h2 class="text-center text-warning">{{Items.Title}}</h2>
+                <p class="card-text text-center  ">{{Items.subTitle}}</p>
+                <p class="card-text text-center  ">{{Items.subTitle1}}</p>
+               
+            </div>
+          </div>
+       
+      
+      
+        
+    </div>
+ 
+
+</div>

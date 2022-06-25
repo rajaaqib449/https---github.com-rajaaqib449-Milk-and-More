@@ -1,0 +1,100 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.item {
+    background-color: #4DC7A0;
+    color: white;
+    font-size: 30px;
+    height: 150px;
+    padding: 0px;
+  }
+  
+  .slide{
+      width: 100% !important;
+      height: 100vh;
+  }
+
+  /* .slide{
+      width: 100vw;
+      height: 100vh;
+    background-image: url(/assets/milk1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  } */
+
+.name{
+    color: white;
+    font-size: xxx-large;
+    font-family: emoji;
+}
+.coursalData {
+    position: absolute;
+    top: 50%;
+    color: white;
+    font-size: xxx-large;
+    font-family: 'Circular-Loom';
+
+}
+
+.owl-theme .owl-nav {
+    position: absolute;
+
+
+    right: 50%;
+    bottom: 10px;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+
+}
+
+.owl-nav button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+}
+
+.owl-prev {
+  right: -25px;
+}
+
+.owl-next {
+  left: -25px;
+}
+
+.owl-nav button i {
+  font-size: 25px;
+  text-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.owl-theme .owl-nav [class*=owl-] {
+  height: 16px;
+  width: 16px;
+  background-color: #ffffffd1;
+  border-radius: 50%;
+  display: inline-block;
+  color: #FFF;
+  font-size: 14px;
+  margin: 5px;
+  padding: 4px 7px;
+border: 1px solid black;
+
+
+  cursor: pointer;
+  border-radius: 35px;
+  
+}
+.owl-theme .owl-nav [class*=owl-]:hover{
+ background-color: black;
+}
+
+.coursalData{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.Owl{
+  width: 100px;
+}

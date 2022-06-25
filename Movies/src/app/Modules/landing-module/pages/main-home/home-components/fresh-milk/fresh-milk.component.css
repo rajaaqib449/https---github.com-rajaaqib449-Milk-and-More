@@ -1,0 +1,88 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.Background{
+background-image: url(/assets/images/fRESHmILK.jpeg);
+
+/* background-repeat: no-repeat; */
+background-size: cover;
+/* background-size: 100%; */
+min-height: 500px;
+width: 100%;
+
+
+
+
+}
+.heading{
+    color: orange;
+    /* bottom: 10px; */
+
+
+}
+.Heading::before{
+    position: absolute;
+    content: "";
+    right: calc(80% + 3.2rem);
+    height: 1px;
+    bottom: 0;
+    width: 42px;
+    background-color: #ffffff;
+}
+.Heading::after{
+    position: absolute;
+    content: "";
+    left: calc(6% + 3.2rem);
+    height: 1px;
+    bottom: 0;
+    width: 52px;
+    background-color: #ffffff;
+ 
+ 
+ }
+.cowLogo{
+    position: relative;
+}
+.cowLogo img{
+    position: absolute;
+    left: 12%;
+    margin-top: -8px;
+}
+.Content{
+    color: white;
+    display: inline-grid;
+
+    left: 35%;
+    top: 25%;
+}
+.ReadMore{
+    width: 120px;
+    height: 52px;
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+    
+    position: inherit;
+    top: 55%;
+}
+.childDiv{
+    margin-top: 51px;
+    width: 500px;
+    color: white;
+
+}
+.Images{
+    width: 294px;
+    height: 380px;
+    display: flex;
+    align-items: center;
+}
+.Images img{
+    position: relative;
+    top: 1%;
+    left: 3%;
+ width: 100%;
+ height: auto;
+}

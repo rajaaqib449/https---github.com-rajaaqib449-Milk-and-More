@@ -1,0 +1,16 @@
+.Header{
+    
+    z-index: 11;
+    POSITION: fixed;
+    overflow: hidden;
+    /* background-color: rgb(255, 255, 255); */
+    width: 100%;
+
+}
+.Header:hover{
+background-color: rgba(255, 255, 255, 0.511);
+transition: 0.5s;
+}
+.Header{
+transition: 0.5s;
+}

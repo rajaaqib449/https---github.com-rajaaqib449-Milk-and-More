@@ -1,0 +1,59 @@
+*{margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    border: 1px solid rgb(255 255 255 / 13%);
+
+}
+.card img{
+ object-fit: cover;
+ border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: top;
+    transition: transform .2s;
+}
+.card-body button{
+    width: 177px;
+
+    border: 1px solid white;
+    background-color: orange;
+    height: 44px;
+}
+
+.ReadMore button{
+    height: 51px;
+    width: 200px;
+    border-color: #ffd050;
+    background-color: #f19f41;
+    overflow: hidden;
+    font-family: oswald,sans-serif;
+    font-size: .8em;
+    line-height: 1.2857em;
+    font-weight: 400;
+    text-transform: uppercase;
+   
+}
+.card img:hover {
+    -ms-transform: scale(0.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(0.8); 
+  }
+  .radio__label{
+      display: inline-flex;
+      overflow: hidden;
+      border-radius: 115px;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  }
+  
+  .radio__input{
+      display: none;
+  }
+  .btn-group{
+    
+    width: 213px;
+    height: 44px;
+}
+  

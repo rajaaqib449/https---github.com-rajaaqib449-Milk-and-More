@@ -1,0 +1,75 @@
+
+ul {
+    background-color: rgba(254,195,33,.22);
+    border-radius: 1rem;
+    padding: 0;
+    max-width: 100%;
+    width: 400px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.Box2{
+    background-color: #fff3d3;
+    height: 100%;
+}
+  
+
+  li{
+    padding: 9px 23px;
+    border-radius: 1rem;
+    list-style: none;
+    overflow: hidden;
+    /* margin-left: 18px; */
+}
+
+  
+  li:hover{
+    background-color: blue;
+  }
+li a {
+    text-decoration: none;
+    text-align: center;
+  }
+  li{
+      float: left;
+  }
+  .Heading{
+    height: 50px;
+    margin-top: 28px;
+  }
+  .Heading::after{
+    position: absolute;
+    content: "";
+    left: calc(48% + 3.2rem);
+      top: 78px;
+    height: 1px;
+  bottom: 0;
+    width: 79px;
+    background-color: #231f20;
+ 
+ 
+ 
+ }
+ .Heading::before{
+     position: absolute;
+     content: "";
+     right: calc(48% + 3.2rem);
+     top: 78px;
+     height: 1px;
+   bottom: 0;
+     width: 79px;
+     background-color: #231f20;
+ }
+ .container-fluid{
+    height: 150px;
+ }
+ .cowLogo img{
+    position: absolute;
+    left: 49%;
+    margin-top: 35px;
+}
+.Paragraphs{
+    position: relative;
+    width: 69%;
+    left: 18%;
+}

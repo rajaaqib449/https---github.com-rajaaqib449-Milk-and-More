@@ -1,0 +1,38 @@
+{
+    "TeamsData":[
+        {
+            "id":1,
+            "Title":"Bobby Young",
+            "subTitle":"A Tractor",
+            "subTitle1":"Driver",
+            "Images":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/team-2-370x370.jpg"
+            
+
+        },
+        {
+            "id":2,
+            "Title":"Jose Morrison ",
+            "subTitle":"A Business",
+            "subTitle1":"Owner",
+            "Images":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/team-4-370x370.jpg"
+
+        },
+        {
+            "id":3,
+            "Title":"Laura Smith",
+            "subTitle":"A chief ",
+            "subTitle1":"Accountant",
+             "Images":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/team-3-370x370.jpg"
+
+        },
+        {
+            "id":4,
+            "Title":"Tyler Holland",
+            "subTitle":"our Only ",
+            "subTitle1":"Marketer",
+            "Images":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/team-1-370x370.jpg"
+
+        }
+
+    ]
+}

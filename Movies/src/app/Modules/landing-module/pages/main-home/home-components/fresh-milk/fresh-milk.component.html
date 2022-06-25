@@ -1,0 +1,28 @@
+<div class="container-fluid Background">
+  
+    <div class="row">
+      <div class="col-md-6 d-flex justify-content-end" *ngFor="let item of freshMilklist">
+        <div class="childDiv">
+          <h2 class="position-relative mt-5 Heading">{{ item.Heading }}</h2>
+
+          <div class="cowLogo">
+            <img
+              src="/assets/images/whitecow-removebg-preview.png"
+              alt=""
+              width="20px"
+            />
+          </div>
+
+          <h4 class="mt-4">{{ item.subHeading }}</h4>
+          <p class="mt-4">{{ item.Paragraph }}</p>
+          <button class="ReadMore mt-3">{{ item.buttonName }}</button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="Images">
+          <img src="/assets/images/girls-removebg-preview.png" alt="" />
+        </div>
+      </div>
+    </div>
+ 
+</div>

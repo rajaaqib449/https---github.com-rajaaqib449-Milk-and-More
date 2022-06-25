@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.background{
+background: orange;
+height: 127px;
+    width: 100%;
+}
+.background1{
+   padding: 25px;
+
+    height: 150px;
+    width: 100%;
+}
+.container{
+    margin: 0px auto;
+}
+.corusal{
+    height: 18vh;
+   
+
+}
+.Owl{
+    width: 100%;
+    float: left;
+}
+
+.slide{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  
+}
+.Images
+{
+    width: 70px;
+    height: 120px;
+}
+.background5{
+background: black;
+}
+.Heading{
+    color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

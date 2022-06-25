@@ -1,0 +1,65 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.background{
+    background-image: url(/assets/images/3-layers.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 700px;
+    width: 100%;
+
+}
+.box1 img{
+    max-width: 100%;
+    height: auto;
+ 
+}
+.box1{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+}
+.box2{
+
+    width: 86%;
+    height: 700px;
+    justify-content: center;
+    align-items: start;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+.box2 h2{
+    color: #fec321;
+}
+.cowLogo{
+    position: relative;
+    left: 7%;
+    position: relative;
+    bottom: 2%;
+}
+.Heading::before{
+    position: absolute;
+    content: "";
+    right: calc(61% + 3.2rem);
+    height: 1px;
+    bottom: 0;
+    width: 42px;
+    background-color: #ffffff;
+}
+.Heading::after{
+    position: absolute;
+    content: "";
+    left: calc(6% + 3.2rem);
+    height: 1px;
+    bottom: 0;
+    width: 52px;
+    background-color: #ffffff;
+ 
+ 
+ }

@@ -1,0 +1,37 @@
+{
+    "ourShop":[
+        {
+            "id":"1",
+            "paragraphs":"Pecorino Romano",
+            "heading":"$18.90 – $38.00",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/product-1.jpg"
+        },
+        {
+            "id":"2",
+            "paragraphs":"Evaporated Milk",
+            "heading":"$4.90 – $8.99",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/product-2.jpg"
+        },
+        {
+            "id":"3",
+            "paragraphs":"Pecorino Romano",
+            "heading":"$18.90 – $38.00",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/product-3.jpg"
+        },
+        {
+            "id":"2",
+            "paragraphs":"$18.90 – $38.00",
+            "heading":"$4.90 – $8.99",
+            "image":"https://dairy-farm.ancorathemes.com/wp-content/uploads/2016/09/product-4.jpg"
+        }
+
+    ],
+    "breakFast":[
+        {
+            "BreakFast":"Breakfast Ideas",
+            "Paragraph":"Heat up your mornings with a bowl of warm cereal. Whether you prefer oatmeal, farina, or any other kind of porridge, make your instant version a bit creamier!",
+            "iceCream":"Ice Cream",
+            "IceceamParaghraph":"Try our low fat, fruitty, caramel, vanilla and chocolate ice cream all made by our best farm cooks!"
+        }
+    ]
+}
